@@ -1,6 +1,4 @@
 # descifrador_hash.py
-# generar_diccionario.py
-
 Este script (descifrador_hash.py) hace lo siguiente:
 
 1. Implementa funciones para hashear contraseñas y para intentar descifrar un hash dado usando un archivo de diccionario.
@@ -9,7 +7,7 @@ Este script (descifrador_hash.py) hace lo siguiente:
 4. Maneja posibles errores, como archivos de diccionario no encontrados.
 
 
-Para usar este script:
+Para usar este script (descifrador_hash.py):
 
 1. Guárdalo como `descifrador_hash.py`.
 2. Prepara un archivo de diccionario (una lista de contraseñas potenciales, una por línea).
@@ -38,7 +36,9 @@ Consideraciones importantes:
 3. Los hashes son unidireccionales; este método prueba cada palabra del diccionario, no "descifra" el hash en el sentido tradicional.
 4. Para contraseñas seguras, este método no debería tener éxito, lo que demuestra la importancia de usar contraseñas fuertes y técnicas de hashing adecuadas (como salting y algoritmos de derivación de claves).
 
-   Este script hace lo siguiente:
+# generar_diccionario.py
+
+  Este script hace lo siguiente(generar_diccionario.py):
 
 1. Define una función `generar_diccionario` que crea un archivo de texto con una lista de contraseñas comunes.
 2. Escribe cada contraseña en una nueva línea del archivo.
